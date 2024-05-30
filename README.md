@@ -3,7 +3,75 @@
 <head>
     <title>To Do List</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    <link rel="stylesheet" href="todo.css">
+    <style>
+    body{
+            background-image: url("https://images.inc.com/uploaded_files/image/1920x1080/getty_514914078_200013332000928076_167571.jpg");
+
+        }
+        .container{
+            display:flex;
+            justify-content: center;
+            align-items: center;
+            height:100vh;
+        }
+        .boxes{
+            width: 80%;
+            max-width: 600px;
+            padding:20px;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            background-color: #30B7CD;
+        }
+        h1{
+            text-align: center;
+        }
+        #header{
+            margin-bottom: 20px;
+        }
+        #footer {
+            margin-top: 20px;
+            text-align: center;
+        }
+        #todo{
+            width: 90%;
+            padding: 10px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+            box-sizing: border-box;
+            margin-bottom: 10px;
+        }
+        #todo-list {
+            list-style-type: none;
+            padding: 0;
+        }
+        li {
+            margin-bottom: 10px;
+            display:flex;
+            align-items: center;
+        }
+        input[type="checkbox"] {
+            margin-right: 10px;
+            width:20px;
+            height: 20px;
+            border-radius: 50%;
+        }
+        .delete-btn{
+            background: none;
+            border: none;
+            cursor: pointer;
+        }
+        .delete-btn i{
+            color:red;
+            font-size:1.2em;
+            vertical-align: middle;
+            margin-left: 5px;
+        }
+        label{
+            flex-grow: ;
+        }
+
+</style>
 </head>
 <body>
     <div class="container">
