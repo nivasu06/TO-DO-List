@@ -50,17 +50,16 @@ body{
             height: 20px;
             border-radius: 50%;
         }
-        .delete-btn{
-            background: none;
-            border: none;
-            cursor: pointer;
+        delete-btn {
+          margin-left: auto; 
+          background: none;
+          border: none;
+          cursor: pointer;
         }
-        .delete-btn i{
-            color:red;
-            font-size:1.2em;
-            vertical-align: middle;
-            margin-left: 5px;
-        }
-        label{
-            flex-grow: ;
+
+        .delete-btn i {
+          color: red;
+          font-size: 1.2em;
+          vertical-align: middle;
+          margin-left: 5px;
         }
